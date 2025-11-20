@@ -16,18 +16,18 @@ Store the result in a variable (e.g., A_inv) and display the inverse matrix usin
 
 ## Program:
 ~~~python
-
 #Program to find the inverse of a matrix.
-#Developed by: Rabin R
-#RegisterNumber:212224230213
+#Developed by: Harikrishnan.S
+#RegisterNumber:212224100020
 import numpy as np
-A=[[2,1,1],[1,1,1],[1,-1,2]]
-inv=np.linalg.inv(A)
-print(inv)
+A = np.array([[2,1,1],[1,1,1],[1,-1,2]])
+AInverse = np.linalg.inv(A)
+print(AInverse)
 ~~~
 
 ## Output:
-<img width="946" height="509" alt="image" src="https://github.com/user-attachments/assets/785c2b59-8afc-4547-805c-c3b1188586e8" />
+<img width="1282" height="891" alt="image" src="https://github.com/user-attachments/assets/4444f229-e3a6-46a1-aecd-e7be667616e0" />
+
 
 ## Result:
 Thus the inverse of given matrix is successfully solved using python program
